@@ -1,0 +1,9 @@
+src/
+├── assets/
+├── components/
+│   ├── CharacterCard.vue
+│   └── CharacterList.vue
+├── views/
+│   └── Home.vue
+├── App.vue
+└── main.js
