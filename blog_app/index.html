@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Блог о релокации в Казахстан</title>
+<meta name="description" content="Welcome to my blog page dedicated to relocation to Kazakhstan. Find articles, maps, banks, and support for your migration process.">
+<meta name="author" content="Your Name">
+<meta name="keywords" content="relocation, Kazakhstan, migration, maps, banks, supermarkets">
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+                console.log('Service Worker registered with scope:', registration.scope);
+            })
+            .catch(error => {
+                console.log('Service Worker registration failed:', error);
+            });
+        });
+    }
+</script>
+</head>
+<body>
+<header>
+    <div class="logo">My Blog</div>
+    <nav>
+        <ul>
+            <li><a href="/admin.html">Admin Panel</a></li>
+            <li id="loginBtn"><a href="#" class="login-btn">Войти</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="container">
+    <h1>Блог о релокации в Казахстан</h1>
+    <p>Welcome to my blog page dedicated to relocation to Kazakhstan.</p>
+    <section class="menu">
+        <ul>
+            <li><a href="/articles.html">Articles</a></li>
+            <li><a href="/about.html">About me</a></li>
+            <li><a href="/maps.html">Maps of Kazakhstan</a></li>
+            <li><a href="/banks.html">Banks of Kazakhstan</a></li>
+            <li><a href="/stores.html">Top stores and supermarkets</a></li>
+            <li><a href="/support.html">Support the author</a></li>
+            <li><a href="/consultations.html">Consultations on migration issues</a></li>
+            <li><a href="/experience/experience.html">My experience in relocating</a></li>
+            <li><a href="/languages/index.html">Languages for learning</a></li>
+        </ul>
+    </section>
+    <section class="container-search">
+        <input type="search" name="search" id="searchBtn" placeholder="Search...">
+    </section>
+    <div class="box">
+        <div id="loginForm" class="login hidden">
+            <form>
+                <label for="login">Login:</label>
+                <input type="text" id="login" name="login">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <button type="button" class="btn" onclick="enter()">Enter</button>
+                <button type="button" class="btn" onclick="clearInputs()">Clear</button>
+            </form>
+        </div>
+        <div id="content">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="list">
+        <ul>
+            <li><a href="/privacy-policy.html">Политика конфиденциальности</a></li>
+            <li><a href="/tech-support.html">Техническая поддержка</a></li>
+            <li><a href="/contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+    <div class="links">
+        <p>Social networks:</p>
+        <a href="https://youtube.com/channel/UCElsjhBkEy0ahXa9IreDcdA"><img src="/images/youtube.png" alt="YouTube logo"></a>
+        <a href="https://t.me/untouchable2003"><img src="/images/tg.jpg" alt="Telegram logo"></a>
+        <a href="https://vk.com/arsen_227"><img src="/images/vk.jpg" alt="VK logo"></a>
+        <a href="https://www.instagram.com/invites/contact/?i=ff9rd99fffx1&utm_content=4nk3h7h"><img src="/images/instagram.jpeg" alt="Instagram logo"></a>
+        <a href="https://www.linkedin.com/in/арсений-селецкий-197663258/edit/forms/intro/new/?profileFormEntryPoint=PROFILE_SECTION"><img src="/images/linkedin_logo.png" alt="LinkedIn logo"></a>
+    </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

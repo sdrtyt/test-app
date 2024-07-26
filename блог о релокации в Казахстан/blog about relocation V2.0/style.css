@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  /* Global styles */
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    }
+    
+    a {
+    color: #0077c0;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    text-decoration: underline;
+    }
+    
+    h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+    
+    h1 {
+    font-size: 36px;
+    }
+    
+    h2 {
+    font-size: 24px;
+    }
+    
+    h3 {
+    font-size: 18px;
+    }
+    
+    p {
+    margin-bottom: 20px;
+    }
+    
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    /* Layout styles */
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    background-color: #0077c0;
+    color: #fff;
+    }
+    
+    .logo {
+    font-size: 32px;
+    font-weight: bold;
+    }
+    
+    nav {
+    display: flex;
+    justify-content: center;
+    }
+    
+    nav ul {
+    display: flex;
+    list-style: none;
+    }
+    
+    nav li {
+    margin: 0 10px;
+    }
+    
+    nav a {
+    color: #fff;
+    }
+    
+    nav a:hover {
+    text-decoration: underline;
+    }
+    
+    main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    }
+    
+    article {
+    width: 100%;
+    margin-bottom: 40px;
+    }
+    
+    article h2 {
+    font-size: 30px;
+    }
+    
+    article p {
+    font-size: 18px;
+    line-height: 1.6;
+    }
+    
+    .sidebar {
+    width: 30%;
+    }
+    
+    .widget {
+    margin-bottom: 40px;
+    }
+    
+    .widget h3 {
+    font-size: 24px;
+    }
+    
+    .widget ul {
+    list-style: none;
+    }
+    
+    .widget li {
+    margin-bottom: 10px;
+    }
+    
+    .widget a {
+    font-weight: bold;
+    }
+    
+    footer {
+    text-align: center;
+    background-color: #0077c0;
+    color: #fff;
+    padding: 20px 0;
+    }
+    
+    .social-icons {
+    margin-top: 20px;
+    }
+    
+    .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+    .social-icons i {
+    font-size: 24px;
+    color: #fff;
+    }
+    
+    nav ul {
+    display: flex;
+    list-style: none;
+    }
+    
+    nav li {
+    margin: 0 10px;
+    font-size: 20px;
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    nav a:hover {
+    text-decoration: underline;
+    transform: translateY(-3px);
+    }
+    
+    nav ul li a.active {
+    color: #0077c0;
+    font-weight: bold;
+    }

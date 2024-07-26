@@ -1,0 +1,44 @@
+/* Set default styles for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the link for email */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Style the link for social media */
+  .contacts a {
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+  
+  /* Set background images for social media icons */
+  .contacts a[href^="https://t.me"] {
+    background-image: url("/images/tg.jpg");
+  }
+  
+  .contacts a[href^="https://vk.com"] {
+    background-image: url("/images/vk.jpg");
+  }
+  
+  .contacts a[href^="https://www.instagram.com"] {
+    background-image: url("/images/instagram.jpeg");
+  }
+  
+  /* Style the text for "My Social links" */
+  p {
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  

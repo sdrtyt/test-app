@@ -1,0 +1,36 @@
+let login = document.getElementById('login');
+let password = document.getElementById('password');
+let loginForm = document.getElementById("loginForm");
+let loginBtn = document.getElementById("loginBtn");
+
+function Enter() {
+    if (login.value == "admin" && password.value == "admin"){
+    
+    alert("привет админ")}
+    else{
+        alert("Ваш логин "+ login.value +  " Ваш пароль " + password.value)
+        loginForm.classList.add('hidden');
+    }    
+    }
+ 
+
+loginBtn.addEventListener('click', show);
+
+function show() {
+    loginForm.classList.toggle('hidden');
+}
+function Clear() {
+login.value = "";
+password.value = "";
+}
+
+
+
+var lang = "ru";
+
+var style = document.createElement("style");
+style.innerHTML = lang+"{display:block;}";
+
+
+
+

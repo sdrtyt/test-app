@@ -1,0 +1,43 @@
+/* vacancies.css */
+
+.vacancies-section {
+    margin-bottom: 30px;
+}
+
+.vacancy-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.vacancy-item h3 {
+    margin-top: 0;
+}
+
+.vacancy-item p {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}

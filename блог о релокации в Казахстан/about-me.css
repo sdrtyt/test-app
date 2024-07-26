@@ -1,0 +1,16 @@
+.author img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+
+.color-contrast-medium p {
+  font-size: 20px; /* Увеличенный размер шрифта */
+  line-height: 1.5;
+  text-align: center;
+  margin: 20px auto;
+}

@@ -1,0 +1,153 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #fff;
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    padding: 20px;
+}
+
+h1, h2, p {
+    width: 100%;
+    text-align: center;
+}
+
+.languages ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.languages li {
+    margin: 10px 0;
+}
+
+.languages a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.languages a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.footer {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    flex-direction: column;
+}
+
+.list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    margin: 0 15px;
+}
+
+.links {
+    text-align: center;
+}
+
+.links p {
+    margin: 10px 0;
+}
+
+.links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.links img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+}

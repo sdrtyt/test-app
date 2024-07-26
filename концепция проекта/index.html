@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Shops</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="manifest" href="manifest.json">
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('Service Worker registered with scope:', registration.scope);
+                    }).catch(error => {
+                        console.log('Service Worker registration failed:', error);
+                    });
+                });
+            }
+        </script>
+    
+</head>
+<body>
+    <header>
+        <h1>Instagram Shops</h1>
+        <p>Explore various Instagram shops by categories</p>
+    </header>
+    <main>
+        <div class="filter-container">
+            <label for="categoryFilter">Filter by category:</label>
+            <select id="categoryFilter" onchange="filterShops()">
+                <option value="all">All</option>
+                <option value="fashion">Fashion</option>
+                <option value="beauty">Beauty</option>
+                <option value="electronics">Electronics</option>
+                <option value="home_decor">Home Decor</option>
+            </select>
+            <input type="text" id="searchInput" onkeyup="searchShops()" placeholder="Search for shops..">
+        </div>
+        <section id="fashion" class="shop-category">
+            <h2>Fashion</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/shop1/" target="_blank">Shop 1</a></li>
+                <li><a href="https://www.instagram.com/shop2/" target="_blank">Shop 2</a></li>
+                <li><a href="https://www.instagram.com/shop3/" target="_blank">Shop 3</a></li>
+            </ul>
+        </section>
+        <section id="beauty" class="shop-category">
+            <h2>Beauty</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/shop4/" target="_blank">Shop 4</a></li>
+                <li><a href="https://www.instagram.com/shop5/" target="_blank">Shop 5</a></li>
+                <li><a href="https://www.instagram.com/shop6/" target="_blank">Shop 6</a></li>
+            </ul>
+        </section>
+        <section id="electronics" class="shop-category">
+            <h2>Electronics</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/shop7/" target="_blank">Shop 7</a></li>
+                <li><a href="https://www.instagram.com/shop8/" target="_blank">Shop 8</a></li>
+                <li><a href="https://www.instagram.com/shop9/" target="_blank">Shop 9</a></li>
+            </ul>
+        </section>
+        <section id="home_decor" class="shop-category">
+            <h2>Home Decor</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/shop10/" target="_blank">Shop 10</a></li>
+                <li><a href="https://www.instagram.com/shop11/" target="_blank">Shop 11</a></li>
+                <li><a href="https://www.instagram.com/shop12/" target="_blank">Shop 12</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Instagram Shops</p>
+    </footer>
+    <scri src="script.js"></script>
+
+
+    </script>
+</body>
+</html>

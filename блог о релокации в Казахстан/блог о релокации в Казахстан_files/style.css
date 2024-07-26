@@ -1,0 +1,134 @@
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    list-style:none;
+    font-size: 17px;
+    justify-content: flex-start;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+nav {
+    background-color:rgb(60, 175, 241);
+    color:white;
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px;
+    font-size: 15px;
+    
+    
+    
+
+    
+}
+
+nav h1 {
+    margin-right: 20px;
+    justify-content: flex-start;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    text-align: center;
+    
+    
+    
+}
+
+img{
+    height:40px;
+    background-image: rgb(112, 77, 236);
+    justify-content: flex-start;
+    
+}
+
+.conteiner{
+    width: 100%;
+    padding: 20px;
+    background-size: 500px 500px;
+    text-align: center;
+    font-style: normal;
+    font-size: medium;
+    scroll-behavior: smooth;
+    
+
+}
+
+.conteiner img{
+    width: 200px;
+    height: 200px;
+    margin: 15px 10px 0;
+    justify-content: center;
+}
+p {
+    margin: 0;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(230, 230, 124);
+    width: 1000px 1000px;
+    height: 1000px 1000px;
+    font-size: 17px;
+    padding: 10px;
+    align-items: center;
+
+    
+}
+.links{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    
+}
+.conteiner video{
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+
+    
+}
+ 
+.login{
+width: 200px;
+height: 200px;
+background-color:rgb(109, 225, 245);
+text-align: center;
+justify-content: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-top: 30px;
+padding-top: 30px;
+
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    
+    
+}
+
+.hidden {
+    display: none;
+}
